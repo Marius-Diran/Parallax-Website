@@ -8,6 +8,11 @@ body, html{
   line-height: 1.5em;
 }
 
+.container{
+  width: 95%;
+  margin: auto;
+}
+
 .p-img1{
   background-image: url('pexels-peter-fazekas-874629.jpg');
   height: 100vh;
@@ -49,3 +54,18 @@ body, html{
 }
 
 /* To get a parallax effect, put the background attachment as fixed */
+
+.p-text1{
+  width: fit-content;
+  text-align: center;
+  position: relative;
+  top: 50vh;
+  left: 38vw;
+  font-size: 1.3rem;
+}
+
+.p-text1 .border{
+  padding: 2vh 2vw;
+  background: hsl(0, 0%, 0%);
+  color: hsl(0, 100%, 100%);
+}
