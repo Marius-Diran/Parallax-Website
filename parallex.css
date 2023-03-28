@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
 
 body, html{
   line-height: 1.5em;
+  font-family: 'Lato', sans-serif;
 }
 
 .container{
@@ -25,7 +28,7 @@ body, html{
 
 .p-img2{
   background-image: url('pexels-benjamin-suter-2225216.jpg');
-  height: 50vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -35,7 +38,7 @@ body, html{
 
 .p-img3{
   background-image: url('pexels-matheus-bertelli-12446378.jpg');
-  height: 50vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -60,12 +63,48 @@ body, html{
   text-align: center;
   position: relative;
   top: 50vh;
-  left: 38vw;
+  left: 37vw;
   font-size: 1.3rem;
 }
 
 .p-text1 .border{
+  font-weight: 700;
+  font-style: italic;
   padding: 2vh 2vw;
   background: hsl(0, 0%, 0%);
+  color: hsl(0, 100%, 100%);
+}
+
+.first-section{
+  background: hsl(0, 0%, 96%);
+}
+
+.first-section h2{
+  text-align: center;
+  padding: 3vh 0;
+}
+
+.first-section p{
+  width: 95%;
+  text-align: center;
+  margin: 2vh auto 0;
+  padding: 0 0 5vh 0;
+}
+
+.second-section{
+  background: hsl(210, 13%, 18%);
+}
+
+.second-section h2{
+  text-align: center;
+  padding: 3vh 0;
+  color: hsl(0, 100%, 100%)
+}
+
+.second-section p{
+  width: 95%;
+  text-align: center;
+  margin: 2vh auto 0;
+  padding: 0 0 5vh 0;
   color: hsl(0, 100%, 100%);
 }
