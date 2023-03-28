@@ -27,7 +27,7 @@ body, html{
 }
 
 .p-img2{
-  background-image: url('pexels-benjamin-suter-2225216.jpg');
+  background-image: url('pexels-david-skyrius-2129796.jpg');
   height: 60vh;
   background-repeat: no-repeat;
   background-position: center;
@@ -63,7 +63,7 @@ body, html{
   text-align: center;
   position: relative;
   top: 50vh;
-  left: 37vw;
+  left: 38.5vw;
   font-size: 1.3rem;
 }
 
@@ -106,5 +106,57 @@ body, html{
   text-align: center;
   margin: 2vh auto 0;
   padding: 0 0 5vh 0;
+  color: hsl(0, 100%, 100%);
+}
+
+.p-text2{
+  width: fit-content;
+  text-align: center;
+  position: relative;
+  top: 30vh;
+  left: 42.2vw;
+  font-size: 1.5rem;
+}
+
+.p-text2 .trans-border{
+  font-weight: 700;
+  font-style: italic;
+  padding: 2vh 2vw;
+  background: transparent;
+  color: hsl(0, 100%, 100%);
+}
+
+.third-section{
+  background: hsl(210, 13%, 18%);
+}
+
+.third-section h2{
+  text-align: center;
+  padding: 3vh 0;
+  color: hsl(0, 100%, 100%)
+}
+
+.third-section p{
+  width: 95%;
+  text-align: center;
+  margin: 2vh auto 0;
+  padding: 0 0 5vh 0;
+  color: hsl(0, 100%, 100%);
+}
+
+.p-text3{
+  width: fit-content;
+  text-align: center;
+  position: relative;
+  top: 30vh;
+  left: 42.2vw;
+  font-size: 1.5rem;
+}
+
+.p-text3 .trans-border{
+  font-weight: 700;
+  font-style: italic;
+  padding: 2vh 2vw;
+  background: transparent;
   color: hsl(0, 100%, 100%);
 }
