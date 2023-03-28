@@ -48,7 +48,7 @@ body, html{
 
 .p-img4{
   background-image: url('pexels-nikolett-emmert-12165534.jpg');
-  height: 50vh;
+  height: 60vh;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -159,4 +159,37 @@ body, html{
   padding: 2vh 2vw;
   background: transparent;
   color: hsl(0, 100%, 100%);
+}
+
+.fourth-section{
+  background: hsl(0, 0%, 96%);
+}
+
+.fourth-section h2{
+  text-align: center;
+  padding: 3vh 0;
+}
+
+.fourth-section p{
+  width: 95%;
+  text-align: center;
+  margin: 2vh auto 0;
+  padding: 0 0 5vh 0;
+}
+
+.p-text4{
+  width: fit-content;
+  text-align: center;
+  position: relative;
+  top: 30vh;
+  left: 42.2vw;
+  font-size: 1.5rem;
+}
+
+.p-text4 .trans-border{
+  font-weight: 700;
+  font-style: italic;
+  padding: 2vh 2vw;
+  background: transparent;
+  color: hsl(0, 0%, 0%);
 }
