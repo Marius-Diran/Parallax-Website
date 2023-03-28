@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html{
+  line-height: 1.5em;
+}
+
+.p-img1{
+  background-image: url('pexels-peter-fazekas-874629.jpg');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.70;
+  background-attachment: fixed;
+}
+
+.p-img2{
+  background-image: url('pexels-benjamin-suter-2225216.jpg');
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.70;
+  background-attachment: fixed;
+}
+
+.p-img3{
+  background-image: url('pexels-matheus-bertelli-12446378.jpg');
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.70;
+  background-attachment: fixed;
+}
+
+.p-img4{
+  background-image: url('pexels-nikolett-emmert-12165534.jpg');
+  height: 50vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.70;
+  background-attachment: fixed;
+}
+
+/* To get a parallax effect, put the background attachment as fixed */
