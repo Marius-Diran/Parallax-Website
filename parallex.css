@@ -195,12 +195,10 @@ body, html{
 }
 
 .contact-us{
-  background-color: hsl(210, 13%, 18%);
+  background-color: hsl(240, 13%, 18%);
 }
 
 .contact-us h3{
-  /* border: 1px solid red; */
-  /* text-align: center; */
   width: fit-content;
   margin: 0 auto;
   padding: 8vh 0 0;
@@ -250,6 +248,97 @@ body, html{
 .contact-us_btn:hover{
   background-color: hsl(0, 100%, 100%);
   color: hsl(0, 94%, 66%);
-  border: 1px solid hsl(0, 94%, 66%);
+  border: 2px solid hsl(0, 94%, 66%);
   cursor: pointer;
+}
+
+.footer{
+  background-color: hsl(0, 0%, 0%);
+}
+
+.footer-writeup h1{
+  font-size: 1.8rem;
+  margin: 0 0 0 5vw;
+  padding: 6vh 0 0 0;
+  color: hsl(0, 100%, 100%);
+  font-weight: 700;
+  font-style: italic;
+  width: fit-content;
+}
+
+.footer-writeup p{
+  width: 40%;
+  text-align: justify;
+  margin: 5vh 0 0 5vw;
+  color: hsl(0, 100%, 100%)
+}
+
+.contact-info{
+  width: 30%;
+  position: relative;
+  left: 50vw;
+  top: -20vh;
+}
+
+.contact-info ul{
+  list-style: none;
+}
+
+.locate-icon{
+  width: 10%;
+  position: absolute;
+}
+
+.email-icon{
+  width: 10%;
+  position: absolute;
+  top: 10vh;
+}
+
+.phone-icon{
+  width: 10%;
+  position: absolute;
+  top: 20vh;
+}
+
+.contact-info ul li{
+  color: hsl(0, 100%, 100%);
+}
+
+.locate-text{
+  margin: 0 0 0 4vw;
+  padding: 1vh 0 0 0;
+}
+
+.email-text{
+  margin: 0 0 0 4vw;
+  padding: 6vh 0 0 0;
+}
+
+.phone-text{
+  margin: 0 0 0 4vw;
+  padding: 6.5vh 0 3vh 0;
+}
+
+.icon8-copy{
+  text-align: center;
+}
+
+.copyright a{
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.i-i{
+  color: hsl(0, 100%, 100%);
+  display: inline;
+  padding: 0 0.3vw;
+}
+
+.copyright-text{
+  color: hsl(0, 100%, 100%);
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1vh 0;
 }
